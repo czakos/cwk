@@ -1,0 +1,56 @@
+html, body, div, span, object, iframe, del, dfn, em, img, ins, kbd, q, samp, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section 
+{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+}
+
+body 
+{
+  -webkit-text-size-adjust:none;
+  font-family:sans-serif;
+  width:100%:;
+  height:100%;
+}
+
+a
+{
+  margin:0 0 0 10px;
+  font-size:12px;
+  color:#3c3c3c;
+}
+
+#mySwipe div a
+{
+  display:block;
+  color:#14ADE5;
+  font-size:20px;
+  text-align:center;
+  margin:4px;
+  padding:100px 10px;
+  background: white;
+  border-radius: 3px;
+}
+
+/* Swipe required styles */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  margin:0px;
+  position: relative;
+}
+
+/* END required styles */
